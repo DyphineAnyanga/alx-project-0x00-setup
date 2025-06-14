@@ -1,3 +1,17 @@
+import Card from "@/components/Card";
+
+export default function Landing() {
+  return (
+    <div className="p-4">
+      <h1 className="text-2xl font-bold mb-4">Landing Page</h1>
+      <Card />
+      <Card />
+      <Card />
+    </div>
+  );
+}
+
+
 const Landing: React.FC =  () => {
   return (
     <div>
@@ -6,3 +20,4 @@ const Landing: React.FC =  () => {
   )
 }
 export default Landing
+
